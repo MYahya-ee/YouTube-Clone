@@ -1,0 +1,88 @@
+.thumbnail{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.search_bar {
+    display: block;
+}
+
+.checkmark{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #a0a0a0; /* Gray circle background */
+  color: #121212;            /* Dark check mark color */
+  border-radius: 50%;        /* Makes it a perfect circle */
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 8px; 
+}
+
+.checkmark1{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #a0a0a0; /* Gray circle background */
+  color: #121212;            /* Dark check mark color */
+  border-radius: 50%;        /* Makes it a perfect circle */
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 8px; 
+  margin-left: 4px;
+}
+
+.play{
+
+  color: transparent;  
+  -webkit-text-stroke: 2px #717171; 
+  font-family: Arial, sans-serif; 
+  display: inline-block;
+}
+
+body{
+    
+  background-color: #0f0f0f; 
+  color: white; 
+  font-family: Arial, Helvetica, sans-serif;                    
+
+}
+
+
+
+.channel-logo{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.headline{
+  margin-top: 6px;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.sub-headline{
+  margin-top: 6px;
+  margin-bottom: 4px;
+  color: #919191;
+  font-size: 14px;
+}
+
+.content-video{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 6px;
+}
+
+.six-videos-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
