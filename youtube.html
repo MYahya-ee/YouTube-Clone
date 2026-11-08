@@ -6,7 +6,41 @@
         <link rel="stylesheet" href="youtube.css">
     </head>
     <body>
-        <input class="search_bar" type="text" placeholder="Search">
+        <div class="header">
+            <div class="left-section">
+                <img style="height: 16px; margin-right: 24px;" src="icons/hamburger.png" alt="">
+                <img style="height: 32px;" src="icons/YTFIN.png" alt="">
+            </div>
+
+            <div class="middle-section">
+                <div class="search-container">
+                    <input class="search_bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img src="icons/search-interface-symbol.png" alt="Search">
+                    </button>
+                    <button class="microphone-button">
+                        <img src="icons/microphone.png" alt="">
+                    </button>
+                </div>
+            </div>
+            
+            
+            <div class="right-section">
+                <div class="right-buttons">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <Button class="create-button">
+                            <img src="icons/plus.png" alt="">
+                            <p style="font-weight: bold;">Create</p>
+                        </Button>
+
+                        <img style="height: 24px;" src="icons/bell.png" alt="">
+                    </div>
+                    <img class="others" src="icons/user.png" alt="">
+                </div>
+            </div>
+                
+        </div>
+        
         <div class="six-videos-grid">
             <div> 
                 <img class="thumbnail" src="Thumbnails/hq720.avif" alt="">
@@ -69,6 +103,7 @@
                 </div> 
             </div>
         </div>
+        
     </body>
 
 </html>
